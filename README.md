@@ -11,6 +11,10 @@ Data dari API GitHub boleh disimpan terlebih dahulu di database ataupun bisa lan
 
 Sifatnya open-ended, kita lihat dalam satu+ jam bisa jadi seperti apa ya.
 
+## Configuring
+
+Copy `ecosystem.sample.json` to `ecosystem.json`. Then put `GITHUB_TOKEN` with created API key from <https://github.com/settings/tokens>.
+
 ## Running
 
 ```sh
