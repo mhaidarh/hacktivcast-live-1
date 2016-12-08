@@ -12,7 +12,7 @@ const request = axios.create(params)
 // -----------------------------------------------------------------------------
 
 router.get('/', (req, res) => {
-  console.log('HELLO FROM GITHUB.JS')
+  console.log('>>> Top 10 Developers in Indonesia <<<')
 
   const url = `/search/users?` +
     `q=location:Indonesia+followers:>=100+repos:>=100` +
