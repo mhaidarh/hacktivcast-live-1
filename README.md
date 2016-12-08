@@ -10,3 +10,20 @@ Data dari API GitHub boleh disimpan terlebih dahulu di database ataupun bisa lan
 ```
 
 Sifatnya open-ended, kita lihat dalam satu+ jam bisa jadi seperti apa ya.
+
+## Running
+
+```sh
+# install
+npm install
+
+# run app
+npm start
+
+# view process log
+pm2 log
+
+# get data
+# open this in other window
+curl localhost:3000
+```
