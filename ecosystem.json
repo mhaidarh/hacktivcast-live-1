@@ -1,0 +1,17 @@
+{
+  apps: [
+    {
+      name: "live:1",
+      script: "index.js",
+      watch: ["index.js"],
+      ignore_watch: ["node_modules"],
+      env: {
+        COMMON_VARIABLE: "true",
+        NAME: "live-1",
+        URL: "http://localhost:3000",
+        HOST: "localhost",
+        PORT: "3000"
+      }
+    }
+  ]
+}
