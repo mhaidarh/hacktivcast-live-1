@@ -10,7 +10,8 @@
         NAME: "live-1",
         URL: "http://localhost:3000",
         HOST: "localhost",
-        PORT: "3000"
+        PORT: "3000",
+        GITHUB_TOKEN: ""
       }
     }
   ]
